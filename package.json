@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-incr-pcorr",
-  "version": "0.0.7",
+  "version": "0.0.0",
   "description": "Compute a sample Pearson product-moment correlation coefficient.",
   "license": "Apache-2.0",
   "author": {
@@ -40,6 +40,7 @@
     "@stdlib/assert-is-number": "^0.0.x",
     "@stdlib/math-base-assert-is-nan": "^0.0.x",
     "@stdlib/math-base-special-sqrt": "^0.0.x",
+    "@stdlib/string-format": "^0.0.x",
     "@stdlib/types": "^0.0.x"
   },
   "devDependencies": {
