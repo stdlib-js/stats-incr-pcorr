@@ -80,6 +80,11 @@ r = \frac{\displaystyle\sum_{i=0}^{n-1} (x_i - \bar{x})(y_i - \bar{y})}{\display
 ## Usage
 
 ```javascript
+import incrpcorr from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-pcorr@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-incr-pcorr/tags). For example,
+
+```javascript
 import incrpcorr from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-pcorr@v0.1.1-deno/mod.js';
 ```
 
@@ -139,7 +144,7 @@ v = accumulator();
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import incrpcorr from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-pcorr@v0.1.1-deno/mod.js';
+import incrpcorr from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-pcorr@deno/mod.js';
 
 var accumulator;
 var x;
