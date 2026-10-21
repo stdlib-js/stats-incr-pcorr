@@ -1,5 +1,0 @@
-"use strict";var M=function(o,e){return function(){try{return e||o((e={exports:{}}).exports,e),e.exports}catch(u){throw (e=0, u)}};};var w=M(function(F,y){
-var h=require('@stdlib/assert-is-number/dist').isPrimitive,d=require('@stdlib/math-base-assert-is-nan/dist'),q=require('@stdlib/math-base-special-sqrt/dist'),p=require('@stdlib/error-tools-fmtprodmsg/dist');function T(o,e){var u,a,N,b,f,t,i,v,s,m,n,r;if(u=0,a=0,n=0,r=0,arguments.length){if(!h(o))throw new TypeError(p('1JX49',o));if(!h(e))throw new TypeError(p('1JX4A',e));return i=o,v=e,E}return i=0,v=0,x;function x(l,c){var g;return arguments.length===0?r===0?null:r===1?d(u)||d(a)?NaN:0:n/(r-1)/(s*m):(r+=1,t=l-i,i+=t/r,u+=t*(l-i),N=c-v,v+=N/r,b=c-v,a+=b*N,n+=t*b,r<2?d(u)||d(a)?NaN:0:(g=r-1,s=q(u/g),m=q(a/g),n/g/(s*m)))}function E(l,c){return arguments.length===0?r===0?null:n/r/(s*m):(r+=1,t=l-i,u+=t*t,f=c-v,a+=f*f,n+=t*f,s=q(u/r),m=q(a/r),n/r/(s*m))}}y.exports=T
-});var V=w();module.exports=V;
-/** @license Apache-2.0 */
-//# sourceMappingURL=index.js.map
